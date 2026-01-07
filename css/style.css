@@ -170,3 +170,84 @@ body{
     background-color: #fff;
     color: #F15B22;
 }
+
+
+/* footer area */
+.footer_wrapper{
+    background-color: #151414;
+    padding: 130px 0;
+    margin-top: 130px;
+}
+
+.footer_content_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_content h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.footer_content p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 24px;
+    max-width: 485px;
+}
+
+.footer_info a{
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.footer_social{
+    display: flex;
+    gap: 17px;
+}
+
+.footer_social img{
+    max-width: 47px;
+}
+
+.footer_form h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 31px;
+}
+
+.footer_form input[type="email"]{
+    height: 64px;
+    width: 325px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 21px;
+    color: #fff;
+}
+
+.footer_form input[type="email"]:focus{
+    outline: none;
+}
+
+.footer_form input[type="email"]::placeholder{
+    color: #fff;
+}
+
+.footer_form .btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    background-color: #005FAC;
+    margin-top: 16px;
+}

@@ -29,6 +29,12 @@ body{
     cursor: pointer;
 }
 
+.title{
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+}
+
 
 /* section code */
 .hero_wrapper{
@@ -58,4 +64,109 @@ body{
     max-width: 494px;
     padding-bottom: 32px;
     margin-left: auto;
+}
+
+/* failure area */
+.failure_wrapper{
+    padding-top: 131px;
+}
+
+.failures_container {
+    display: flex;
+    align-items: center;
+    margin-left: 206px;
+    margin-right: 322px;
+    gap: 87px;
+    background-image: url('../images/shape.png');
+    background-repeat: no-repeat;
+    background-position: 22px bottom;
+}
+
+.failures_img img{
+    vertical-align: middle;
+}
+
+.failure_content p{
+    font-size: 16px;
+    color: #444343;
+    padding-top: 24px;
+    max-width: 416px;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+
+.failure_content ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+}
+
+.failure_content ul li img{
+    max-width: 24px;
+    margin-right: 10px;
+}
+
+
+/* plan area */
+.plan_wrapper{
+    padding-top: 130px;
+}
+
+.plan_heading{
+    text-align: center;
+}
+
+.plan_card_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan_card{
+    text-align: center;
+    margin-top: 61px;
+}
+
+.plan_card img{
+    max-width: 92px;
+}
+
+.plan_card h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    padding-top: 24px;
+}
+
+.plan_card p{
+    font-size: 25px;
+    color: #737272;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+/* banner area */
+.banner_wrapper{
+    padding-top: 130px;
+}
+.banner_container{
+    background: linear-gradient(90deg,rgba(241, 91, 34, 1) 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 59px 64px;
+    border-radius: 8px;
+}
+
+.banner_content h2{
+    color: #ffffff;
+    max-width: 459px;
+    padding-bottom: 24px;
+}
+
+.banner_content .btn{
+    background-color: #fff;
+    color: #F15B22;
 }
